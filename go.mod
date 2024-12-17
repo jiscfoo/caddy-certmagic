@@ -1,4 +1,4 @@
-module github.com/caddyserver/certmagic
+module github.com/jiscfoo/caddy-certmagic
 
 go 1.21.0
 
@@ -24,3 +24,5 @@ require (
 	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
 )
+
+replace github.com/mholt/acmez/v2 => github.com/jiscfoo/mholt-acmez/v2 v2.0.3-20241217132524-ee8f7d130dd7
