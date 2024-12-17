@@ -1,4 +1,4 @@
-module github.com/jiscfoo/caddy-certmagic
+module github.com/caddyserver/certmagic
 
 go 1.21.0
 
@@ -17,6 +17,7 @@ require (
 )
 
 require (
+	github.com/caddyserver/certmagic v0.21.4 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
